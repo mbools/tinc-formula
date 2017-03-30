@@ -54,6 +54,7 @@ tinc:
     - mode: 755
     - user: root
     - group: root
+    - makedirs: true
     - source: salt://tinc/template/tinc.conf.tmpl
     - template: 'jinja'
     - context:
